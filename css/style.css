@@ -1,0 +1,455 @@
+.logo,
+.footer-logo {
+  background: #1270ae;
+}
+.leading {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  text-indent: 2em;
+}
+.leading span {
+  color: #337bb4;
+}
+.nav ul {
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+  text-align: center;
+}
+.nav ul li {
+  display: inline-block;
+  font-size: 1rem;
+  width: 25%;
+}
+.nav ul li a {
+  display: block;
+  background-color: #1270ae;
+  color: #ffffff;
+  outline: 0.1rem solid #ffffff;
+  line-height: 1.2rem;
+  padding: 1rem 0;
+}
+.nav ul li a span {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.nav ul li:nth-child(even) a {
+  background-color: #0466b3;
+}
+.header {
+  margin-bottom: 1rem;
+}
+section {
+  margin-bottom: 1.6rem;
+}
+.hgroup {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.hgroup h2 {
+  font-size: 1.6rem;
+  color: #333333;
+}
+.hgroup h3 {
+  font-size: 0.6rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #6f6f6f;
+  border-bottom: 0.05rem solid #cccccc;
+  width: 94%;
+  margin: 0 auto;
+}
+.hgroup h3:after {
+  content: "";
+  height: 0.15rem;
+  width: 10%;
+  display: block;
+  margin: 0.6rem auto 0;
+  background-color: #1270ae;
+  position: relative;
+  top: 0.1rem;
+}
+.pfzz {
+  text-align: center;
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+}
+.pfzz li {
+  font-size: 1rem;
+  display: inline-block;
+  width: 28.4%;
+  background: #e6e6e6;
+  margin: 0 0.2rem 0.4rem;
+  padding: 0.6rem 0.4rem 0;
+}
+.pfzz li h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #1270ae;
+  border-bottom: 0.05rem solid #b8b8b8;
+}
+.pfzz li h3:after {
+  content: "";
+  height: 0.15rem;
+  width: 30%;
+  display: block;
+  margin: 0.2rem auto 0;
+  background-color: #1270ae;
+  position: relative;
+  top: 0.1rem;
+}
+.pfzz li p {
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+.pfzz li p span {
+  color: #cd0001;
+}
+.pfzz li a.btn {
+  display: inline-block;
+  width: 70%;
+  background-color: #1270ae;
+  color: #ffffff;
+  line-height: 1.6rem;
+  -webkit-border-radius: 1rem 1rem 0 0;
+  -moz-border-radius: 1rem 1rem 0 0;
+  border-radius: 1rem 1rem 0 0;
+}
+.pfzz li a.btn:after {
+  content: "";
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: url(../images/shou.png) no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+.pfzz li:nth-child(odd) a.btn {
+  background-color: #bae1ff;
+  color: #1270ae;
+}
+.btn-hgroup {
+  text-align: center;
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+  margin-top: 1rem;
+}
+.btn-hgroup a {
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  background: #cd0001 url(../images/js-title.png) no-repeat 1.4rem center;
+  background-size: auto 70%;
+  text-align: left;
+  padding: 0.6rem 2rem 1rem 5rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+}
+.btn-hgroup a span {
+  font-size: 1.5rem;
+  font-weight: normal;
+  display: block;
+}
+.tel a {
+  background: #cd0001 url(../images/tel-title.png) no-repeat 1.4rem center;
+  background-size: auto 70%;
+}
+.jtzz {
+  text-align: center;
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+  background: #a4c8fc url(../images/xian-bg.png);
+  padding: 1rem 0;
+}
+.jtzz li {
+  display: inline-block;
+  font-size: 1rem;
+  width: 23%;
+  margin: 0 0.1rem 0.2rem;
+}
+.jtzz li a {
+  background-color: #ffffff;
+  color: #333333;
+  display: block;
+  line-height: 2rem;
+}
+.jtzz li:nth-child(1) a,
+.jtzz li:nth-child(10) a,
+.jtzz li:nth-child(16) a,
+.jtzz li:nth-child(23) a,
+.jtzz li:nth-child(29) a {
+  background-color: #1270ae;
+  color: #ffffff;
+}
+.zj-div {
+  width: 96%;
+  margin: 0 auto;
+  padding: 1.5rem 0 1rem;
+  border: 0.1rem solid #cccccc;
+}
+.zj-div h2 {
+  background-color: #ce0000;
+  color: #fff;
+  font-family: zidiyi;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 2rem;
+  border-left: 0.3rem solid #8b0000;
+  padding: 0 0.8rem;
+  margin-bottom: 0.6rem;
+  font-weight: normal;
+}
+.zj-div h3 {
+  padding-left: 0.8rem;
+  font-size: 1.8rem;
+  color: #434343;
+}
+.zj-div h3 strong {
+  float: left;
+  border-right: 0.05rem solid #ababab;
+  padding-right: 0.3rem;
+  margin-right: 0.3rem;
+}
+.zj-div h3 span {
+  font-size: 1rem;
+  font-weight: normal;
+  float: left;
+  font-size: 0.9rem;
+}
+.zj-div h3:after {
+  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.zj-div h4 {
+  margin-left: 0.8rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+  background-color: #1270ae;
+  display: inline-block;
+  position: relative;
+  padding: 0 0.6rem;
+}
+.zj-div h4:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -0.8rem;
+  border-top: 0.5rem solid #1270ae;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid #1270ae;
+}
+.zj-div h4:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: -0.8rem;
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid #1270ae;
+  border-left: 0.5rem solid #1270ae;
+}
+.zj-div .jianjie {
+  width: 56%;
+  height: 6.6rem;
+  padding-left: 0.8rem;
+}
+.zj-bot:after {
+  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.shanchang {
+  width: 54%;
+  float: left;
+  margin-left: 0.8rem;
+  margin-right: 0.6rem;
+}
+.shanchang dl {
+  background: #a4c8fc url(../images/xian-bg.png);
+  box-shadow: 0.3rem 0.3rem 0.4rem #a7a7a7;
+  margin: 0.6rem 0 1rem;
+}
+.shanchang dl:after {
+  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+.shanchang dt {
+  width: 12%;
+  background-color: #1270ae;
+  color: #fff;
+  line-height: 1rem;
+  text-align: center;
+  float: left;
+  padding: 0.4rem 0;
+}
+.shanchang dd {
+  width: 88%;
+  float: right;
+  padding-top: 0.8rem;
+}
+.shanchang dd ul {
+  text-align: center;
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+}
+.shanchang dd li {
+  display: inline-block;
+  font-size: 1rem;
+  width: 29%;
+  margin: 0 0.1rem 0.2rem;
+}
+.shanchang dd li a {
+  display: block;
+  background-color: #ffffff;
+  line-height: 1.5rem;
+}
+.shanchang dd li:last-child a {
+  background-color: #1270ae;
+  color: #ffffff;
+}
+.bz-img {
+  width: 38%;
+  float: left;
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0.2rem 0;
+}
+.bz-img img {
+  display: inline-block;
+  width: 47%;
+  margin: 0 0.05rem;
+}
+.zj-btn {
+  text-align: center;
+  font-size: 0;
+  -webkit-text-size-adjust: none;
+}
+.zj-btn a {
+  font-size: 1rem;
+  display: inline-block;
+  color: #ffffff;
+  line-height: 2rem;
+  padding: 0 1rem;
+  margin: 0 0.1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+.zj-btn a.btn1 {
+  background-color: #1270ae;
+}
+.zj-btn a.btn2 {
+  background-color: #cd0001;
+}
+.zj-div-1 {
+  background: #faf9f9 url(../images/zj-1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.zj-div-2 {
+  background: #faf9f9 url(../images/zj-2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.zjwh-wrap {
+  position: relative;
+  height: 17rem;
+  width: 100%;
+  padding-top: 0.4rem;
+}
+.zjwh {
+  width: 96%;
+  margin: 0 auto 1rem;
+}
+.zjwh:after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.zjwh dt {
+  width: 14%;
+  float: left;
+}
+.zjwh dd {
+  width: 76%;
+  float: left;
+  font-size: 1rem;
+  background-color: #9de660;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  position: relative;
+  margin-left: 4%;
+}
+.zjwh dd:after {
+  content: "";
+  position: absolute;
+  left: -0.4rem;
+  top: 20%;
+  border-right: 0.4rem solid #9de660;
+  border-top: 0.4rem solid transparent;
+  border-bottom: 0.4rem solid transparent;
+}
+.zjwh dd p {
+  padding: 1rem;
+}
+.zjwh-bot {
+  background-color: #fff;
+  height: 2.2rem;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  padding: 0rem 2%;
+}
+.zjwh-bot input {
+  font-size: 1rem;
+  line-height: 2.2rem;
+  background: transparent url(../images/pen-title.png) no-repeat 0.6rem center;
+  background-size: auto 50%;
+  vertical-align: middle;
+  width: 57%;
+  border: 0.1rem solid #d2d2d2;
+  float: left;
+  text-indent: 2.2rem;
+}
+.zjwh-bot button {
+  background-color: #d20000;
+  color: #fff;
+  width: 21%;
+  line-height: 2.4rem;
+  font-size: 1rem;
+  vertical-align: middle;
+  float: left;
+}
+.zjwh-bot button.tonghua {
+  background-color: #1270ae;
+}
+.footer {
+  padding: 2rem 0 5rem;
+  text-align: center;
+}
+.footer img {
+  width: 74%;
+  margin: 0 auto;
+}
+.footer p {
+  line-height: 1.6em;
+  margin-top: 1rem;
+}
